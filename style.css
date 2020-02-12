@@ -1,0 +1,20 @@
+.test {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	font-size: 30px;
+	color:white;
+	font-family: 'Gloria Hallelujah', cursive;
+
+
+	/*margin-right: 100px;*/
+	/*font-size: 50px;*/
+
+}
+* {
+	margin: 0
+}
+img {
+ height: 755px;
+ width:1519px;
+}
