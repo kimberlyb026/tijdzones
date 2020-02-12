@@ -1,7 +1,5 @@
 <?php
-$time = strtotime('+1 hour');
 
-strtotime('+ 1 hour', $time);
 
 $time = date('H:i', strtotime('+1 hour'));
 
@@ -12,17 +10,17 @@ if($time < 6 ){
 	$img = "night.png";
 	$text =" Goede Nacht!";
 }
-else if($time <12 && 6 < $time){
+else if($time < 12 && 6 <= $time){
 	$img = "morning.png";
 	$text ="Goede Morgen!";
 }
 
-else if ($time <18 && 12 < $time){
+else if ($time < 18 && 12 <= $time){
 	$img = "afternoon.png";
 	$text ="Goede Middag! ";
 }
 
-else if ($time <24 && 18 < $time){
+else if ($time < 24 && 18 <= $time){
 	$img = "evening.png";
 	$text ="Goede Avond! ";
 }
@@ -32,8 +30,8 @@ else if ($time <24 && 18 < $time){
 <html lang="nl">
     <head>
     	<title></title>
-    	<link rel="stylesheet" type="text/css" href="./style.css"></head>
-    	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="./style.css">
+<link href="https://fonts.googleapis.com/css?family=Nixie+One&display=swap" rel="stylesheet">
 	</head>
 	<body>   
 		<img src="<?php echo $img;  ?>"> 

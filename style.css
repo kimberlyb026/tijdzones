@@ -1,10 +1,13 @@
+html,body{
+font-family: 'Nixie One', cursive;
+}
+
 .test {
 	position: absolute;
 	top: 30%;
 	left: 35%;
 	font-size: 30px;
 	color:white;
-	font-family: 'Gloria Hallelujah', cursive;
 
 
 	/*margin-right: 100px;*/
